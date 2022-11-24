@@ -130,6 +130,45 @@ main{
     opacity: 0.9;
 }
 
+@media only screen and (max-width: 768px) {
+    #slider .slider-intro{
+        max-width: 250px;
+    }
+
+    #slider .slider-intro h1{
+        font-size: 30px;
+    }
+    
+    #slider .slider-intro p{
+        font-size: 14px;
+    }
+    
+    #slider .slider-intro button{
+        font-size: 20px;
+        padding: 10px 40px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #slider .slider-intro{
+        max-width: 450px;
+    }
+    
+    #slider .slider-intro h1{
+        font-size: 50px;
+    }
+    
+    #slider .slider-intro p{
+        font-size: 20px;
+    }
+    
+    #slider .slider-intro button{
+        font-size: 25px;
+        padding: 20px 60px;
+        margin-top: 20px;
+    }
+}
 
 
 .sub-slider{
