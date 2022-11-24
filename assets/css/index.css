@@ -181,8 +181,8 @@ main{
 }
 
 .sub-slider .slider-item{
-    width: 350px;
-    height: 200px;
+    width: 390px;
+    height: 250px;
     position: relative;
     margin-bottom: 30px;
 }
@@ -226,5 +226,61 @@ main{
 .intro{
     width: 100%;
     height: 500px;
-    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro .intro-content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro .intro-content .intro-content-text{
+    max-width: 80%;
+}
+
+.intro .intro-content .intro-content-text .sub-title{
+    letter-spacing: 3px;
+    font-size: 10px !important;
+    font-weight: 800;
+    color: orangered;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.intro .intro-content .intro-content-text h1{
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(56, 55, 55);
+}
+
+.intro .intro-content .intro-content-text hr{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(49, 158, 185);
+    color: rgb(50, 175, 206);
+    margin-top: -2px;
+}
+
+.intro .intro-content .intro-content-text button{
+    background-color: rgb(54, 212, 212);
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+}
+
+.intro .intro-content .intro-content-text button:hover{
+    opacity: 0.8;
+}
+
+.intro .intro-picture{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(49, 191, 144);
 }
