@@ -1,1 +1,3 @@
-## Link deploy: https://terrence-bestrong.netlify.app/
+## BeStrong
+
+### Link deploy: https://terrence-bestrong.netlify.app/
