@@ -1,0 +1,218 @@
+@media only screen and (min-width: 769px) {
+    header .logo img{
+        width: 200px;
+    }
+    
+    header .contact i{
+        width: var(--font-size-icon);
+        height: var(--font-size-icon);
+        line-height: var(--font-size-icon);
+    }
+
+    header nav div ul li a{
+        font-size: var(--font-size-p) !important;
+    }
+
+    #slider .slider-intro h1{
+        font-size: var(--font-size-h1);
+    }
+
+    
+    #slider .slider-intro p{
+        font-size: var(--font-size-p);
+    }
+
+    #slider .slider-intro button{
+        font-size: var(--font-size-h3);
+    }
+
+    .sub-slider .slider-item .sub-slider-intro h4{
+        font-size: var(--font-size-h4);
+    }
+
+    .sub-slider .slider-item .sub-slider-intro p{
+        font-size: var(--font-size-p-small);
+    }
+
+    .sub-slider .slider-item .sub-slider-intro button{
+        font-size: var(--font-size-p-xs);
+    }
+
+    .intro .intro-content .intro-content-text .sub-title{
+        font-size: var(--font-size-p-xxs) !important;
+    }
+
+    .intro .intro-content .intro-content-text h1{
+        font-size: var(--font-size-h1);
+    }
+
+    .intro .intro-content .intro-content-text button{
+        font-size: var(--font-size-h4);
+    }
+
+    .our-class .our-class-content .our-class-content-text h1{
+        font-size: var(--font-size-h1);
+    }
+
+    .our-class .our-class-content .our-class-content-text p{
+        font-size: var(--font-size-p); 
+    }
+
+    .our-class .our-class-picture .row .picture-container .exercise{
+        font-size: var(--font-size-h2);
+    }
+
+    
+    .our-class .our-class-picture .row .picture-container .read-more h2{
+        font-size: var(--font-size-h2);
+    }
+
+    .our-class .our-class-picture .row .picture-container .read-more p{
+        font-size: var(--font-size-p-small);
+    }
+
+    .our-class .our-class-picture .row .picture-container .read-more button{
+        font-size: var(--font-size-p-xs);
+    }
+
+    #slider .slider-intro{
+        max-width: 450px;
+    }
+    
+    #slider .slider-intro button{
+        padding: 20px 60px;
+        margin-top: 20px;
+    }
+
+    .intro .intro-content{
+        width: 50% !important;
+        height: auto;
+        display: flex;
+        margin-top: 50px !important;
+    }
+
+    .intro .intro-picture{
+        width: 50% !important;
+        height: auto;
+    }
+
+    .intro .intro-picture .intro-picture-first div, .intro .intro-picture .intro-picture-second div{
+        width: 250px !important;
+        height: 400px !important;
+    }
+
+    .intro .intro-picture .intro-picture-second div{
+        padding: 30px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header .logo img{
+        width: 100px;
+    }
+
+    header .contact i{
+       width: var(--font-size-icon-responsive);
+       height: var(--font-size-icon-responsive);
+       line-height: var(--font-size-icon-responsive);
+    }
+
+    header nav div ul li a{
+        font-size: var(--font-size-p-responsive) !important;
+    }
+
+    #slider .slider-intro h1{
+        font-size: var(--font-size-h1-responsive);
+    }
+
+    #slider .slider-intro p{
+        font-size: var(--font-size-p-responsive);
+    }
+
+    #slider .slider-intro button{
+        font-size: var(--font-size-h3-responsive);
+    }
+
+    .sub-slider .slider-item .sub-slider-intro h4{
+        font-size: var(--font-size-h4-responsive);
+    }
+    
+    .sub-slider .slider-item .sub-slider-intro p{
+        font-size: var(--font-size-p-small-responsive);
+    }
+
+    .sub-slider .slider-item .sub-slider-intro button{
+        font-size: var(--font-size-p-xs-responsive);
+    }
+
+    .intro .intro-content .intro-content-text .sub-title{
+        font-size: var(--font-size-p-xxs-responsive) !important;
+    }
+
+    .intro .intro-content .intro-content-text h1{
+        font-size: var(--font-size-h1-responsive);
+    }
+
+    .our-class .our-class-content .our-class-content-text p{
+        font-size: var(--font-size-p-responsive); 
+    }
+
+    .intro .intro-content .intro-content-text button{
+        font-size: var(--font-size-h4-responsive);
+    }
+
+    .our-class .our-class-content .our-class-content-text h1{
+        font-size: var(--font-size-h1-responsive);
+    }
+
+    .intro .intro-content .intro-content-text p{
+        font-size: var(--font-size-p-responsive); 
+    }
+
+    .our-class .our-class-picture .row .picture-container .exercise{
+        font-size: var(--font-size-h2-responsive);
+    }
+
+    .our-class .our-class-picture .row .picture-container .read-more h2{
+        font-size: var(--font-size-h2-responsive);
+    }
+
+    .our-class .our-class-picture .row .picture-container .read-more p{
+        font-size: var(--font-size-p-small-responsive);
+    }
+
+    .our-class .our-class-picture .row .picture-container .read-more button{
+        font-size: var(--font-size-p-xs-responsive);
+    }
+
+    #slider .slider-intro{
+        max-width: 250px;
+    }
+    
+    #slider .slider-intro button{
+        padding: 10px 40px;
+        margin-top: 10px;
+    }
+
+    .intro .intro-content{
+        width: 100% !important;
+        height: auto;
+        display: flex;
+        margin-top: 30px !important;
+    }
+
+    .intro .intro-picture{
+        width: 100% !important;
+        height: auto;
+    }
+
+    .intro .intro-picture .intro-picture-first div, .intro .intro-picture .intro-picture-second div{
+        width: 150px !important;
+        height: 350px !important;
+    }
+
+    .intro .intro-picture .intro-picture-second div{
+        padding: 15px 0 !important;
+    }
+}
+

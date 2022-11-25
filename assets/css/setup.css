@@ -1,0 +1,34 @@
+/* Setup */
+:root{
+    --font-size-h1: 50px;
+    --font-size-h1-responsive: 30px;
+    --font-size-h2: 30px;
+    --font-size-h2-responsive: 20px;
+    --font-size-h3: 25px;
+    --font-size-h3-responsive: 18px;
+    --font-size-h4: 20px;
+    --font-size-h4-responsive: 16px;
+    --font-size-p: 20px;
+    --font-size-p-responsive: 14px;
+    --font-size-p-small: 14px;
+    --font-size-p-small-responsive: 12px;
+    --font-size-p-xs: 12px;
+    --font-size-p-xs-responsive: 10px;
+    --font-size-p-xxs: 10px;
+    --font-size-p-xxs-responsive: 8px;
+    --font-size-icon: 30px;
+    --font-size-icon-responsive: 20px;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html 
+{
+    font-family: Helvetica, Arial,  sans-serif;
+    font-size: 2vh;
+}
