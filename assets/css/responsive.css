@@ -9,6 +9,10 @@
         line-height: var(--font-size-icon);
     }
 
+    header .contact span{
+        font-size: var(--font-size-p);
+    }
+
     header nav div ul li a{
         font-size: var(--font-size-p) !important;
     }
@@ -24,6 +28,8 @@
 
     #slider .slider-intro button{
         font-size: var(--font-size-h3);
+        padding: 20px 60px;
+        margin-top: 20px;
     }
 
     .sub-slider .slider-item .sub-slider-intro h4{
@@ -48,6 +54,10 @@
 
     .intro .intro-content .intro-content-text button{
         font-size: var(--font-size-h4);
+    }
+
+    .intro .intro-content .intro-content-text p{
+        font-size: var(--font-size-p); 
     }
 
     .our-class .our-class-content .our-class-content-text h1{
@@ -77,11 +87,6 @@
 
     #slider .slider-intro{
         max-width: 450px;
-    }
-    
-    #slider .slider-intro button{
-        padding: 20px 60px;
-        margin-top: 20px;
     }
 
     .intro .intro-content{
@@ -117,6 +122,10 @@
        line-height: var(--font-size-icon-responsive);
     }
 
+    header .contact span{
+        font-size: var(--font-size-p-responsive);
+    }
+
     header nav div ul li a{
         font-size: var(--font-size-p-responsive) !important;
     }
@@ -131,6 +140,8 @@
 
     #slider .slider-intro button{
         font-size: var(--font-size-h3-responsive);
+        padding: 10px 40px;
+        margin-top: 10px;
     }
 
     .sub-slider .slider-item .sub-slider-intro h4{
@@ -153,7 +164,7 @@
         font-size: var(--font-size-h1-responsive);
     }
 
-    .our-class .our-class-content .our-class-content-text p{
+    .intro .intro-content .intro-content-text p{
         font-size: var(--font-size-p-responsive); 
     }
 
@@ -165,7 +176,7 @@
         font-size: var(--font-size-h1-responsive);
     }
 
-    .intro .intro-content .intro-content-text p{
+    .our-class .our-class-content .our-class-content-text p{
         font-size: var(--font-size-p-responsive); 
     }
 
@@ -187,11 +198,6 @@
 
     #slider .slider-intro{
         max-width: 250px;
-    }
-    
-    #slider .slider-intro button{
-        padding: 10px 40px;
-        margin-top: 10px;
     }
 
     .intro .intro-content{

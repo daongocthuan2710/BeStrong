@@ -25,6 +25,10 @@ header .contact i{
    border-radius: 100%;
 }
 
+header .contact span{
+    font-size: var(--font-size-p);
+}
+
 header nav div ul{
     text-transform: capitalize;
     list-style-type: none;
