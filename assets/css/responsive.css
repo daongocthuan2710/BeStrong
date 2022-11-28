@@ -109,6 +109,27 @@
     .intro .intro-picture .intro-picture-second div{
         padding: 30px 0 !important;
     }
+
+    .our-team .our-team-content h1{
+        font-size: var(--font-size-h1);
+    }
+    
+    .our-team .our-team-content p{
+        font-size: var(--font-size-p);
+    }
+
+    
+    .our-team-picture .picture .card .card-bottom h2{
+        font-size: var(--font-size-h2);
+    }
+    
+    .our-team-picture .picture .card .card-bottom p{
+        font-size: var(--font-size-p);
+    }
+    
+    .our-team-picture button{
+        font-size: var(--font-size-p);
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -219,6 +240,26 @@
 
     .intro .intro-picture .intro-picture-second div{
         padding: 15px 0 !important;
+    }
+
+    .our-team .our-team-content h1{
+        font-size: var(--font-size-h1-responsive);
+    }
+    
+    .our-team .our-team-content p{
+        font-size: var(--font-size-presponsive);
+    }
+
+    .our-team-picture .picture .card .card-bottom h2{
+        font-size: var(--font-size-h2-presponsive);
+    }
+    
+    .our-team-picture .picture .card .card-bottom p{
+        font-size: var(--font-size-p-presponsive);
+    }
+    
+    .our-team-picture button{
+        font-size: var(--font-size-p-presponsive);
     }
 }
 
