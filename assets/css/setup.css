@@ -19,6 +19,10 @@
     --font-size-icon: 30px;
     --font-size-icon-responsive: 20px;
 
+    /* Color Theme */
+    --dark-theme: rgb(28, 27, 27);
+    --blue-theme-button:rgb(54, 212, 212);
+    --font-dark-theme:rgb(190, 195, 197);
 }
 
 *{

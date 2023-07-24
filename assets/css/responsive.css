@@ -130,6 +130,16 @@
     .our-team-picture button{
         font-size: var(--font-size-p);
     }
+
+    .carousel .carousel-content{
+        width: 60%;
+    }
+
+    footer .contact-us{
+        color: white;
+        width: 60%;
+        margin: 80px 40px 40px 80px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -261,5 +271,20 @@
     .our-team-picture button{
         font-size: var(--font-size-p-presponsive);
     }
+
+    .carousel .carousel-content{
+        width: 90%;
+    }
+
+    .carousel .carousel-content .carousel-content-text p{
+        padding: 0;
+    }
+
+    footer .contact-us{
+        color: white;
+        width: 90%;
+        margin: 20px 20px 20px 20px;
+    }
 }
+
 
